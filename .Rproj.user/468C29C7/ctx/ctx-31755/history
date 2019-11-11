@@ -1,0 +1,13 @@
+install.packages("devtools")
+library(devtools)
+install_github('ThistleQ/Translation', build_vignettes = T)
+library(AA)
+x <- "ATGtacacagctaaaGAacggauuuctacacatGAAGgtagagaggccacagagagcacguag"
+AA(x)
+library(devtools)
+install_github('ThistleQ/Translation', build_vignettes = T
+)
+browseVignettes("AA")
+vignette("AA")
+library(devtools)
+install_github('ThistleQ/Translation', build_vignettes = T)
