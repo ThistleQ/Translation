@@ -1,0 +1,31 @@
+---
+title: "AA Tutorial"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{AA Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+This is a crazy simple package that can translate nucleic acid sequence (DNA or RNA) into amino acids sequence. It does not support ambiduity codes. It only work correctly for sequences that are from the nuclear genome of eukaryotes.
+
+# Installation
+This R package can be installed directly from GitHub using the following code. The devtools installation step can be skipped if you have already installed that package.
+
+```{r, eval=F}
+install.packages("devtools")
+library(devtools)
+install_github('ThistleQ/Translation', build_vignettes = T)
+
+```
+
+# Example Code
+
+```{r}
+library(AA)
+# creat a sequence
+x <- "ATGtacacagctaaaGAacggauuuctacacatGAAGgtagagaggccacagagagcacguag"
+# translation
+AA(x)
+```
+
