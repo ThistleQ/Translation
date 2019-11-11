@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573505233529.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "84CFEFD3",
+    "lastKnownWriteTime" : 1573506284,
+    "last_content_update" : 1573506284042,
+    "path" : "~/GitHub/Translation/vignette/AA.Rmd",
+    "project_path" : "vignette/AA.Rmd",
+    "properties" : {
+        "cursorPosition" : "17,12",
+        "scrollLine" : "14"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
